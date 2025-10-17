@@ -29,6 +29,11 @@ ALLOWED_HOSTS = [
     "django-test.zeabur.app",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-test.zeabur.app",
+    "http://localhost",
+    "http://127.0.0.1",
+]
 
 # Application definition
 
